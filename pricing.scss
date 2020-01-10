@@ -1,0 +1,67 @@
+$colors: 
+(
+    primary: rgb(0,191,255)
+    accent: #fff
+);
+body,html{
+    height: 100%;
+}
+body{
+    font-family:'montserrat';
+    margin: 0;
+    #bg{
+        clip-path: inset(0 0 46% 0);
+        background-color: map-get($colors,primary);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+    .d{
+        color:map-get($colors,accent);
+    }
+    .c{
+        color:map-get($colors,primary);
+    }
+    .card{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        text-align: center;
+        background-color:map-get($colors,accent);
+         background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 300px;
+        transition: 0.4s;
+        margin-right: 999px;
+        margin-bottom: 50px;
+      }
+      img{
+        background-size: cover;
+        width: 80px;
+        height: 100px;
+      }
+      .card:hover{
+        transform: scale(1.1);
+      }
+    
+    .card{
+      border-top-left-radius: 7px;
+      border-top-right-radius: 7px;
+      border-bottom-right-radius: 7px;
+      border-bottom-left-radius: 8px;
+    }
+    .btn-primary{
+        background-color: transparent;
+        color:map-get($colors,primary);
+        border:map-get($colors,primary) solid 2px;
+    }
+
+    #bold{
+        font-family: 'montserrat';
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+      
+}

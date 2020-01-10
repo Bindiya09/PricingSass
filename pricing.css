@@ -1,0 +1,67 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: 'montserrat';
+  margin: 0;
+}
+
+body #bg {
+  -webkit-clip-path: inset(0 0 46% 0);
+          clip-path: inset(0 0 46% 0);
+  background-color: deepskyblue;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+body b {
+  color: #fff;
+}
+
+body .c {
+  color: deepskyblue;
+}
+
+body .card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 300px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-right: 999px;
+  margin-bottom: 50px;
+}
+
+body img {
+  background-size: cover;
+  width: 80px;
+  height: 100px;
+}
+
+body .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body .card {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 8px;
+}
+
+body .btn-primary {
+  background-color: transparent;
+  color: deepskyblue;
+  border: deepskyblue solid 2px;
+}
+/*# sourceMappingURL=pricing.css.map */
